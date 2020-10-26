@@ -1,0 +1,486 @@
+* {
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family:'Alata', sans-serif;
+ 
+}
+.main-conteiner{
+  display:flex;
+
+
+}
+
+.main-box_1 {
+  width: 40%;
+  height: 100%;
+  padding: 65px;
+  outline: solid 1px black;
+}
+
+.h1{
+color:blue;
+font-size: 32px;
+ margin: 0;
+}
+
+p{
+
+text-align:left;
+margin: 0;
+padding-top: 65px;
+color:rgba(0, 0, 0, 0.205) ;
+}
+
+
+.field-wrapper {
+  margin-top: 35px;
+  display: flex;
+  border: 1px solid gray;
+  width: 100%;
+  max-width: 340px;
+  height: 40px;
+}
+.field-icon {
+  width: 40px;
+  height: 100%;
+  border-right: 1px solid gray;
+  text-align:center;
+  padding: 10px;
+}
+
+.field-input {
+  width: 200px;
+  outline: none;
+  border: none;
+  color:rgba(0, 0, 0, 0.205);
+  padding: 5px;
+  font-size: 12px;
+  padding:10px;
+  
+}
+.fa-dot-circle-o {
+float:right ;
+padding-left: 72px;
+margin-top: 10px;
+}
+.wrapper-text2 {
+
+margin-top: 35px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+max-width: 340px;
+height: 40px;
+padding-top:10px;
+color:rgba(0, 0, 0, 0.205)
+} 
+
+.fa-dot-circle-o{
+font-size: 20px;
+color:rgb(153, 138, 138)
+}
+.fa-key{
+font-size: 20px;
+color:rgb(153, 138, 138)
+
+}
+.butt{
+font-size:18px ;
+color:white ;
+text-decoration:none;
+text-transform: uppercase;
+width: 150px;
+height: 60px;
+text-align:center ;
+background-color:#3498db;
+outline: none;
+border: none;
+border-radius: 3px;
+}
+.wrapper-line{
+display: flex;
+justify-content:space-around ;
+align-items: center;
+margin-top:35px ;
+width: 100%;
+max-width: 350px;
+height: 45px;
+
+color:rgb(153, 138, 138)
+}
+.line{ 
+
+border-bottom: 1px dashed rgb(153, 138, 138); /* Параметры линии  */
+margin-top:none ;
+width: 40%;
+height: 18px;
+}
+.line2{
+
+border-bottom: 1px dashed rgb(153, 138, 138); /* Параметры линии  */
+
+margin-top:none ;
+width: 40%;
+height: 18px;
+}
+
+.weapper-butt{
+margin-top: 35px;
+display: flex;
+
+}
+.material-icons{
+font-size:20px;
+color:gray;
+
+}
+
+
+
+.icons{
+margin-top: 35px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+width: 100%;
+padding-top:10px;
+color:rgba(0, 0, 0, 0.205);
+border: 1px solid ghostwhite
+  
+
+
+}
+
+.fa-twitter{
+display: block;
+font-size:20px;
+color: white;
+background-color:#54a0ff;
+height: 40px;
+padding: 10px;
+}
+
+.butt-icon{
+font-size:18px ;
+color:white ;
+text-decoration:none;
+text-transform: uppercase;
+width: 100%;
+height: 40px;
+text-align:center ;
+background-color:#3498db;
+outline: none;
+border: none;
+
+}
+
+
+.text-end{
+text-align:left;
+margin: 0;
+padding-top: 65px;
+color:rgba(153, 138, 138, 0.651) ;
+}
+
+.main-box_2 {
+  position: relative;
+  width: 60%;
+  background-image:url(../img/background.jpg);
+  background-position: center;
+  color: white;
+  
+}
+.text2 {
+position: absolute;
+
+font-size: 30px;
+bottom: 40px;
+right: 135px;
+}
+
+.Line-wrapper{
+position: absolute;
+bottom: 20px;
+range: 10px;
+right:150px;
+display: flex;
+justify-content: space-between;
+width: 100%;
+max-width: 100px;
+height: 3px;
+
+}
+.wrapper{
+height: 100%;
+width:30px ;
+background-color:white;
+}
+.text3{
+position: absolute;
+bottom: 10px;
+right: 10px;
+ top:50px;
+ 
+}
+
+  
+
+
+
+
+
+
+/* 
+
+
+
+
+* {
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family:'Alata', sans-serif;
+ 
+}
+.main-conteiner{
+  display:flex;
+  width: 100%;
+max-width: 1050px;
+ margin:  0px  auto;
+ padding: 1px 1px;
+
+}
+
+.main-box_1 {
+  width: 40%;
+  height: 100%;
+  padding: 65px;
+  outline: solid 1px black;
+}
+
+.h1{
+color:blue;
+font-size: 32px;
+ margin: 0;
+}
+
+p{
+
+text-align:left;
+margin: 0;
+padding-top: 65px;
+color:rgba(0, 0, 0, 0.205) ;
+}
+
+
+.field-wrapper {
+  margin-top: 35px;
+  display: flex;
+  border: 1px solid gray;
+  width: 100%;
+  max-width: 340px;
+  height: 40px;
+}
+.field-icon {
+  width: 40px;
+  height: 100%;
+  border-right: 1px solid gray;
+  text-align:center;
+  padding: 10px;
+}
+
+.field-input {
+  width: 200px;
+  outline: none;
+  border: none;
+  color:rgba(0, 0, 0, 0.205);
+  padding: 5px;
+  font-size: 12px;
+  padding:10px;
+  
+}
+.fa-dot-circle-o {
+float:right ;
+padding-left: 72px;
+margin-top: 10px;
+}
+.wrapper-text2 {
+
+margin-top: 35px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+max-width: 340px;
+height: 40px;
+padding-top:10px;
+color:rgba(0, 0, 0, 0.205)
+} 
+
+.fa-dot-circle-o{
+font-size: 20px;
+color:rgb(153, 138, 138)
+}
+.fa-key{
+font-size: 20px;
+color:rgb(153, 138, 138)
+
+}
+.butt{
+font-size:18px ;
+color:white ;
+text-decoration:none;
+text-transform: uppercase;
+width: 150px;
+height: 60px;
+text-align:center ;
+background-color:#3498db;
+outline: none;
+border: none;
+border-radius: 3px;
+}
+.wrapper-line{
+display: flex;
+justify-content:space-around ;
+align-items: center;
+margin-top:35px ;
+width: 100%;
+max-width: 350px;
+height: 45px;
+
+color:rgb(153, 138, 138)
+}
+.line{ 
+
+border-bottom: 1px dashed rgb(153, 138, 138); /* Параметры линии  */
+/* 
+
+
+
+
+
+  margin-top:none ;
+  width: 40%;
+  height: 18px;
+ }
+ .line2{
+  
+  border-bottom: 1px dashed rgb(153, 138, 138); /* Параметры линии  */
+  
+  /* margin-top:none ;
+  width: 40%;
+  height: 18px;
+ }
+
+ .weapper-butt{
+  margin-top: 35px;
+  display: flex;
+ 
+  }
+ .material-icons{
+font-size:20px;
+color:gray;
+
+ }
+
+
+ 
+ .icons{
+  margin-top: 35px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding-top:10px;
+  color:rgba(0, 0, 0, 0.205);
+  border: 1px solid ghostwhite
+    
+
+
+ }
+
+.fa-twitter{
+  display: block;
+  font-size:20px;
+  color: white;
+  background-color:#54a0ff;
+  height: 40px;
+  padding: 10px;
+}
+ 
+.butt-icon{
+  font-size:18px ;
+  color:white ;
+  text-decoration:none;
+  text-transform: uppercase;
+  width: 100%;
+  height: 40px;
+  text-align:center ;
+  background-color:#3498db;
+  outline: none;
+  border: none;
+  
+ }
+  
+
+.text-end{
+  text-align:left;
+  margin: 0;
+  padding-top: 65px;
+  color:rgba(153, 138, 138, 0.651) ;
+  }
+
+  .main-box_2 {
+    position: relative;
+    width: 60%;
+    background-image:url(../img/background.jpg);
+    background-position: center;
+    color: white;
+    
+  }
+.text2 {
+position: absolute;
+
+font-size: 30px;
+bottom: 40px;
+right: 135px;
+}
+
+.Line-wrapper{
+position: absolute;
+bottom: 20px;
+range: 10px;
+right:150px;
+display: flex;
+justify-content: space-between;
+width: 100%;
+max-width: 100px;
+height: 3px;
+
+}
+.wrapper{
+height: 100%;
+width:30px ;
+background-color:white;
+}
+.text3{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+   top:50px;
+   
+} */
+
+
+
+
+  
+
+
+
