@@ -34,7 +34,7 @@ logInButton.addEventListener('click', () => {
    if (!user_name_length){
      return
    } 
-  console.log(password , username , izlatinets , islength);
+
   fetch('https://github.com/EddyRock97/json/blob/master/index.json',{
     method:'POST',
     headers: {
